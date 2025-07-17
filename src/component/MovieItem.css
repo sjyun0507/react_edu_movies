@@ -1,0 +1,30 @@
+.MovieItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+.MovieItem .checkbox_col {
+    width: 20px;
+}
+.MovieItem .title_col,
+.MovieItem .genre_col{
+    flex: 1;
+}
+.MovieItem .date_col {
+    font-size: 14px;
+    color: gray;
+}
+.MovieItem .btn_col button {
+    cursor: pointer;
+    color: gray;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.MovieItem .btn_col button {
+    background: rgb(138, 138, 138);
+    color: white;
+}

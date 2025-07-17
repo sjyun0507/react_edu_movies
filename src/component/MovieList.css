@@ -1,0 +1,26 @@
+.MovieList .editor_wrapper {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.MovieList h3{
+    margin: 30px;
+    color:white;
+}
+.MovieList .searchbar,
+.MovieList .genre{
+    flex:1;
+    box-sizing: border-box;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.MovieList .list_wrapper{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    gap: 20px;
+}
